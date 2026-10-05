@@ -1,7 +1,6 @@
-Week1/LP01/venv/
-Week1/LP01/.venv/
-Week1/LP01/env/
-Week1/LP01/node_modules/
-Week1/Quiz_1/
-Week1/Quiz_Syllabus_1/
-Week1/Quiz_Syllabus_2/
+Week*/Quiz_*/
+Week*/Quiz_Syllabus_*/
+Week*/LP*/node_modules/
+Week*/LP*/venv/
+Week*/LP*/.venv/
+Week*/LP*/env/
