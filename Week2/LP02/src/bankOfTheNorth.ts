@@ -65,5 +65,3 @@
 
  // REVIEW: There's no check to prevent withdrawing more money
  // than the account has, which could allow a negative balance.
-
- // AI transparency: AI was used to clean up this code.

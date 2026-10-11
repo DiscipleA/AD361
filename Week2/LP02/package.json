@@ -1,0 +1,12 @@
+{
+  "name": "ad361-lp02",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AD361 LP02 static testing practice",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1"
+  }
+}
