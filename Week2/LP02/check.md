@@ -2,7 +2,7 @@
 
 ## Group members' final review
 
-- Dmitriy (@DiscipleA): I reviewed Mat’s findings and discussed the corrections through the pull request. Through contamplaiting, the corrected code was prepared to update balances, validate PINs, prevent overdrafts, and handle transfers correctly. The additional automated checks and TypeScript check passed. The ESLint comparison and final group review are still pending.
+- Dmitriy (@DiscipleA): I reviewed Mat’s findings and discussed the corrections through the pull request. With much contamplation, the corrected code was prepared to update balances, validate PINs, prevent overdrafts, and handle transfers correctly. The additional automated checks and TypeScript check passed. The ESLint comparison and final group review are still pending.
 
 
 - Mat (@Mozog90): Final personal review note pending.
