@@ -2,13 +2,17 @@
 
 ## Group members' final review
 
-- Dmitriy (@DiscipleA) Author: I reviewed Mat’s findings and discussed the corrections through the pull request. With much contamplation, the corrected code was prepared to update balances, validate PINs, prevent overdrafts, and handle transfers correctly. The additional automated checks and TypeScript check passed. The ESLint comparison and final group review are still pending.
+- Dmitriy (@DiscipleA) Author:
+
+I reviewed Mat’s findings and discussed the corrections through the pull request. With much contamplation, the corrected code was prepared to update balances, validate PINs, prevent overdrafts, and handle transfers correctly. The additional automated checks and TypeScript check passed. The ESLint comparison and final group review are still pending.
 
 - Mateusz Ozog (@Mozog90) Reviewer:
 
 I went through the issue log and compared all nine issues with the corrected code. From what I can see, Dmitriy addressed the problems identified during the manual review. The deposit and withdrawal functions now update the balance correctly, the PIN checks are in place, and the transfer function checks whether the withdrawal succeeded before continuing. I didn't find any additional issues during my review.
 
-- Amde (@amdemw206-coder) Scribe: Checking issue_log.md and comparing it to the comments in fixBankOfTheNorth.ts, I was able to determine that every bug that was recognized in the original TypeScript file was fixed. Updated the status of every single bug from "ongoing" to "fixed"   
+- Amde (@amdemw206-coder) Scribe:
+
+Checking issue_log.md and comparing it to the comments in fixBankOfTheNorth.ts, I was able to determine that every bug that was recognized in the original TypeScript file was fixed. Updated the status of every single bug from "ongoing" to "fixed"   
 
 ## Corrected-code verification
 
