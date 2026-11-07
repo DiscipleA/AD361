@@ -56,7 +56,7 @@ Spend **10 to 15 minutes** testing the feature. As you work, briefly record:
 Your testing should remain focused on the goal described in your charter. If you discover a new area that you want to investigate, record it as an idea for a future testing session.
 
 
-##Exploratory testing notes
+### Exploratory testing notes
 
 | What I Tried | What Happened | What I Decided to Try Next |
 | ------------ | ------------- | -------------------------- |
@@ -87,8 +87,7 @@ Perform each check and record one of the following results:
 
 Include a brief note when a result needs additional explanation.
 
-<details>
-<summary>Checklist format</summary>
+### Checklist format
 
 | Check | Result | Notes |
 | ----- | ------ | ----- |
@@ -98,7 +97,6 @@ Include a brief note when a result needs additional explanation.
 | Submitting with an empty guest count is blocked. | Failed | A booking appeared with a blank guest count. |
 | Selecting Confirm Booking twice for the same details creates only one booking. | Failed | Two identical bookings appeared for `2026-11-11` with `1` guest. |
 
-</details>
 
 ## Step 4: Acceptance Testing
 
@@ -131,16 +129,15 @@ For the same feature you selected in Step 1:
 
 The results below use the matching scenarios performed against the running application in Step 2.
 
-<details>
-<summary>Acceptance criteria format</summary>
 
+### Acceptance criteria format
 | Given, When, Then | Result | Notes |
 | ---------------- | ------ | ----- |
 | Given I want to reserve Beachfront Condo for `2026-11-10`, when I select that rental and date, enter `1` guest, confirm, and open Bookings, then I should see my reservation with those details. | Passed | The rental, date, and guest count appeared correctly. |
 | Given I have selected Beachfront Condo and `2026-11-10`, when I try to confirm without a guest count, then I should be asked to enter the guest count before a reservation is created. | Failed | A reservation was created with a blank guest count instead. |
 | Given I have selected Beachfront Condo, `2026-11-11`, and `1` guest, when I select Confirm Booking twice, then I should have only one reservation for that stay in Bookings. | Failed | Two identical reservations appeared. |
 
-</details>
+
 
 A checklist item usually describes one specific check, such as submitting a form with an empty date. An acceptance criterion describes whether the user can accomplish a complete goal, such as successfully booking a rental.
 
@@ -152,7 +149,3 @@ Your checklist and acceptance criteria may overlap because they examine the same
 2. Commit and push your work to the repository.
 3. Make sure the repository is public. Private repositories will not receive credit.
 4. Submit the URL on Canvas.
-
-## AI Transparency
-
-AI was used to help create portions of this file and to clean up its writing and formatting.
