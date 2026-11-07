@@ -55,8 +55,8 @@ Spend **10 to 15 minutes** testing the feature. As you work, briefly record:
 
 Your testing should remain focused on the goal described in your charter. If you discover a new area that you want to investigate, record it as an idea for a future testing session.
 
-<details>
-<summary>Exploratory testing notes</summary>
+
+##Exploratory testing notes
 
 | What I Tried | What Happened | What I Decided to Try Next |
 | ------------ | ------------- | -------------------------- |
@@ -66,7 +66,7 @@ Your testing should remain focused on the goal described in your charter. If you
 | Kept Beachfront Condo and `2026-11-10`, cleared the guest count, confirmed once, and opened Bookings. | A booking appeared with a blank guest count. | Try confirming a complete booking twice. |
 | Selected Beachfront Condo, entered `2026-11-11` and `1` guest, selected Confirm Booking twice, then opened Bookings. | Two identical bookings appeared for November 11. | Review the observations against the testing charter. |
 
-</details>
+
 
 ## Step 3: Checklist-Based Testing
 
